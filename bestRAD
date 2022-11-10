@@ -1,0 +1,735 @@
+BestRAD Library Preparation for 96-samples
+
+Based on protocol of Ali et al. 2015 (10.1534/genetics.115.183665)
+
+Updated by BVH March 13, 2018
+
+ADAPTED BY AEW July 6, 2021 to match concentrations from previous protocol
+
+
+
+
+
+
+
+This is a 3-day protocol
+
+(Although it could be completed in 2 long days).
+
+There are designated stopping points. Please adhere to them!
+
+
+
+
+Section 1: DNA Standardization
+
+1.	Standardize your high quality genomic DNA with 125ng in 10uL (ie. 12.5ng/uL) in a 96 well plate.
+
+2.	All DNA will also have needed to be run out on a gel to survey level (if any) of degradation and shearing. Aim to pool samples of similar quality together.
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1
+ 
+Project:_______________________ RADseqReady Plate #__________________ Library #__________
+
+Name: __________________________ Date: ____________________________________
+
+Section 2: Restriction Enzyme Digestion
+
+Materials Required
+
+¨	Ice
+
+¨	10x Cutsmart Buffer
+¨	Molecular Grade Water
+¨	SbfI-HF Restriction Enzyme (NEB R3642L)
+
+¨	8-well PCR strips
+¨	1.5 mL tubes
+
+1.	Keep everything on ice as you prepare the master mix and DNA!
+2.	Prepare restriction enzyme (RE) digestion master mix (MM) as follows:
+
+Item	Total Volume (μL)	
+	100 samples 	
+		
+Cutsmart Buffer (or NEBBuffer 4)	125	
+Molecular Grade Water	70.83	
+SbfI-HF enzyme (add last & keep cold)	12.5	
+Total	208.3 μL	
+
+3.	Aliquot 25ul of the RE digestion MM to each well in the strip tube. If you are preparing two DNA plates, then aliquot 50ul to the strip tube.
+
+4.	Add 2 uL of RE digestion MM to each well. Pipette mix. Seal well and quick spin plate.
+
+5.	Incubate plate using “Sbf1 digest” at:
+
+a.	37°C for 60 minutes, then
+b.	80°C for 20 minutes to heat kill RE.
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2
+ 
+Project:_______________________ RADseqReady Plate #__________________ Library #__________
+
+Name: __________________________ Date: ____________________________________
+
+Section 3: BestRAD Adapter Ligation
+
+Materials Required
+
+¨	Ice
+¨	Annealed, indexed SbfI bestRAD adapters at 75nM
+
+¨	Molecular grade water
+
+¨	T4 DNA Ligase (NEB M0202M)
+
+¨	T4 DNA Ligase Buffer with 10mM rATP (comes with T4 DNA Ligase)
+¨	1.5 mL tubes
+
+¨	8-well PCR strips
+
+1.	Keep everything on ice as you prepare the master mix and DNA!
+2.	Add 2uL of annealed indexed SbfI-HF BestRAD adapters at 50nM to the digested DNA from Section 2. 
+
+3.	Prepare adapter ligation (AL) master mix (MM) as follows:
+
+Item	Total Volume (μL)	
+	96 samples	
+		
+Molecular Grade Water	133.3	
+10x T4 DNA Ligase Buffer*	58.3	
+T4 DNA Ligase	16.6	
+Total	208.3	
+with 10mM rATP
+
+6.	Keep adapter ligation (AL-MM) on ice. Aliquot 25ul of the AL-MM into PCR strips to facilitate multi-channel addition to plate. If you are preparing two
+
+DNA plates, then aliquot 50ul to the strip tube.
+4.	Add 2uL of AL-MM to each well and pipette up and down 2x to mix.
+5.	Seal and quick spin.
+6.	Incubate with heated lid off at:
+
+a.	20°C for 60 minutes, then
+b.	65°C for 15 minutes to inactivate ligase
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3
+ 
+Project:_______________________ RADseqReady Plate #__________________ Library #__________
+
+Name: __________________________ Date: ____________________________________
+
+Section 4: Pool, Magnetic Bead Clean Up
+
+Materials Required
+
+¨	80% ethanol freshly made from 100% Molecular Grade ethanol (ThermoFisher Scientific BP82021)
+
+o  For total 5ml: 4mL of 100% ethanol, 1 mL molecular grade water
+
+¨	8 well PCR strip tubes
+
+¨	1.5 mL microcentrifuge tubes
+¨	Agencourt AMPure XP Beads (Beckman Coulter, A63881) mixed and at room temperature for at least 1 hour, and Magnetic Rack
+¨	Low TE (TE0.1: 10mM Tris-HCl pH 7.5, 0.1 mM EDTA).
+
+1.	Pool 5uL from each uniquely indexed sample from columns 1-6, and pool separately columns 7-12 into 8 well PCR strips. Then transfer all volume from each strip tube into their respective 1.5mL tube for a total volume of 192uL per pool. This will give you 2 tubes per 96-samples, each tubed consists of 48 uniquely barcoded samples. Freeze the rest in case you need to come back to it!
+
+2.	Clean the DNA with 1 X Agencourt AMPure XP beads (Beckman Coulter, A63881).
+
+a.	Add 480 uL Agencourt AMPure Beads to each tube. Gently mix by pipetting and quick spin.
+
+b.	Incubate the sample at room temperature for 5 minutes to bind DNA to the beads.
+
+c.	Place the tube on a magnetic rack (LIDS CLOSED) and wait until the liquid is clear to capture the beads (10 minutes).
+
+d.	With tube on rack, carefully open lids, remove and discard the supernatant (in hazardous waste because beads are stored in sodium azide).
+
+e.	Keep the tube on the rack and add 960 uL (cover beads) freshly made 80% ethanol to wash the beads.
+
+f.	Incubate at room temperature for 30 – 60 seconds.
+g.	Leave tube on rack; carefully remove ethanol & discard.
+
+h.	Repeat steps e – g again. Remove the residual ethanol with a small pipette tip. Do not disturb beads.
+
+i.	Dry the beads at room temperature for about 5 minutes. Do not overdry the beads.
+
+j.	Close lids and remove the tubes from the magnetic rack.
+
+k.	Add 210 uL Low TE. Mix by pipetting and quick spin.
+l.	Place on magnet for 10 minutes.
+m.	Divide sample into two 1.7 mL tubes (105 uL per tube) for sonication.
+n.	Remove supernatant and place in 1.5 mL tube. KEEP SUPERNATANT!
+ 
+
+
+
+
+
+
+
+
+4
+ 
+Project:_______________________ RADseqReady Plate #__________________ Library #__________
+
+Name: __________________________ Date: ____________________________________
+
+Section 5: Sonication to Selected Size Fragment Materials Required
+
+¨	Bioanalyzer (if desired)
+¨	Sonicator in Roberts Lab
+
+
+1.	Verify that the Sonicator water tank is filled with distilled water to the “full line”.
+2.	Turn on water bath of Sonicator and allow to cool to 4C (this takes ~1 hour)
+3.	Balance the Sonicator rack with “blank tubes” containing the same volume of liquid as your sample (use MilliQ H20 for “blank tubes”).
+4.	Shear 20 cycles of [30 sec on; 59 sec off]
+5.	Run 1uL on BioAnalyzer to asses shearing efficiency: reshear if necessary. DNA fragments should be distributed between 300-600 bp. 
+
+
+
+
+Additional Optional Step: You can check shearing efficiency using the BioAnalyzer on one of your samples at this point to ensure the correct sample size. Place 3ul in a 1.5mL tube and deposit in the Core Receiving Fridge. Shearing at 400 bp is important for downstream workflow.
+
+
+
+
+
+END OF DAY 1
+
+[Optional: If you want to do a 2-day protocol, continue on to Streptavidin beads, which is a 2-3 hours process]
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5
+ 
+Project:_______________________ RADseqReady Plate #__________________ Library #__________
+
+Name: __________________________ Date: ____________________________________
+
+Section 6: Streptavidin Bead Binding Assay Materials Required
+
+¨	Dynabeads M-280 Streptavidin (Invitrogen 11205D); room temperature and resuspended by mixing well (rotate on biorocker).
+
+¨	37°C thermomixer
+
+¨	56°C incubator
+
+¨	2X Binding and Wash Buffer (2X BW Buffer: 10mM Tris-HCl (pH 7.5), 1mM EDTA pH 8.0, 2M NaCl)
+
+¨	1X binding and wash buffer (1X BW Buffer: 5mM Tris-HCl (pH 7.5), 0.5mM EDTA pH 8.0, 1M NaCl) – you can dilute 2x BW Buffer 1:1 with Molecular Grade Water
+
+¨	1X NEB Buffer 4 (It comes as 10X – dilute 1:9 with Molecular Grade Water)
+
+¨	Agencourt AMPure XP Beads (warmed and well mixed on biorocker)
+¨	Freshly made 80% ethanol
+o	For total 5ml: 4.17mL of 96% ethanol, 833uL molecular grade water
+
+¨	Low TE (10mM tris-HCl pH 7.5, 0.1 mM EDTA)
+¨	SbfI-HF restriction enzyme
+
+1.	Check 2X and 1X BW buffers! For each tube processed, you will need:
+a.	300ul 2X BW buffer 
+	(5.88 mL water, 4 mL 5M NaCL, 100 uL 1M Tris-HCL, 20uL 0.5M EDTA)
+
+b.	300ul 1X BW buffer
+c.	300ul 1X BW buffer (warmed at 56°C in the incubator)
+
+2.	Wash Dynabeads
+a.	Transfer 20uL Dynabeads to new 1.7mL tube. One tube for each pool.
+b.	Add 100uL 2X BW buffer and pipette mix for 5 seconds.
+
+c.	Quick spin, place on magnet, and let beads aggregate for 1 minute with lids closed.
+
+d.	Discard supernatant.
+e.	Wash beads with 100uL 2X BW buffer, pipette mix for 5 seconds. Quick spin, place on magnet, and let beads aggregate for 1 minute with lids closed and discard supernatant.
+3.	Bind DNA to Dynabeads
+a.	Remove tube from magnet and re-suspend beads in 200uL 2X BW buffer. Mix well by pipetting.
+
+b.	Add 200uL of sheared DNA (100uL from each tube) from the previous step to beads. Pipette mix 10x.
+
+c.	Incubate at room temperature for 20 minutes, with gentle pipetting for 3 seconds every 5 minutes.
+
+d.	Quick spin (ensure the beads did not clump in bottom of tube), place tube on magnetic rack for 2 minutes. Discard supernatant, move off of magnet, and re-suspend beads in 150uL 1X BW buffer. Pipette mix 10x.
+
+e.	Quick spin (ensure the beads did not clump in bottom of tube) and place on magnet. Let beads aggregate for 2 minutes.
+
+f.	Discard supernatant.
+ 
+
+
+
+
+6
+ 
+Project:_______________________ RADseqReady Plate #__________________ Library #__________
+
+Name: __________________________ Date: ____________________________________
+
+g.	Re-suspend beads in 150uL 1X BW buffer. Pipette mix 10x. Quick spin (ensure the beads did not clump in bottom of tube) and place on magnet. Let beads aggregate for 2 minutes. Discard supernatant.
+
+h.	Re-suspend beads in 150uL 1X BW buffer warmed at 56°C. Pipette mix 10x. Quick spin (ensure the beads did not clump in bottom of tube) and place on magnet. Let beads aggregate for 2 minutes. Discard supernatant.
+
+i.	Re-suspend beads in 150uL 1X BW buffer warmed at 56°C. Pipette mix 10x. Quick spin (ensure the beads did not clump in bottom of tube) and place on magnet. Let beads aggregate for 2 minutes. Discard supernatant.
+
+4.	Liberate DNA from Dynabeads
+a.	Remove from magnet and re-suspend beads in 100uL of 1X NEB4 Buffer
+
+b.	Place tube on magnet for 2 min
+c.	Discard supernatant.
+d.	Remove from magnet and re-suspend beads in 100uL of 1X NEB4 Buffer. Place tube on magnet for 2 minutes. Discard supernatant.
+e.	Re-suspend beads in 40uL 1X NEBuffer 4
+
+f.	Add 2uL of SbfI-HF enzyme to re-suspended beads. Pipette mix 10x.
+g.	Incubate at 37°C for 60 minutes in thermocycler with gentle pipetting after 30 minutes.
+
+h.	Quick spin, then place tube on magnetic rack for 5 minutes.
+i.	TRANSFER supernatant to a new 1.5 mL tube.
+
+5.	AMPure bead cleanup (1:1. X)
+
+i.	Add 40uL AMPure beads (well mixed and at room temperature) to each sample
+
+ii.	Gentle pipette mix/spin and incubate at room temperature for 10 minutes.
+
+iii.	Put on magnet for 5 minutes.
+
+iv.	Remove and discard supernatant.
+
+v.	Leave tube on magnet and add 200uL freshly made 80% ethanol.
+vi.	Incubate for 30 seconds.
+
+vii.	Remove and discard supernatant.
+
+viii.	Leave tube on magnet and add 200uL freshly made 80% ethanol. Incubate for 30 seconds. Remove and discard supernatant.
+
+ix.	Let air dry for 5 minutes. Remove all remaining ethanol!
+x.	Remove tubes from rack and add 55uL Low TE.
+
+xi.	Mix/spin. Let sit for 5 minutes.
+xii.	Put on rack for 5 minutes.
+xiii.	TRANSFER supernatant 50uL to a strip tube to prepare for thermocycler work that follows.
+ 
+
+
+
+
+
+
+
+
+
+
+
+7
+ 
+Project:_______________________ RADseqReady Plate #__________________ Library #__________
+
+Name: __________________________ Date: ____________________________________
+
+6.	Quantify 2uL of the supernatant with HS Qubit. Quantification is usually low (between 0.1 – 0.2 ng/uL).
+
+Library ID	Concentration (ng/uL)
+RAD01	0.236
+	
+	
+	
+
+END OF DAY 2
+
+Should you proceed, you need to complete the rest of the library prep (there is no good intermediate stopping point).
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8
+ 
+Project:_______________________ RADseqReady Plate #__________________ Library #__________
+
+Name: __________________________ Date: ____________________________________
+
+Section 7: NEBNext Ultra II Library Prep
+
+Check the NEB website before beginning in case there have been any protocol updates: https://www.neb.com/protocols/2015/09/16/protocol-for-use-with-nebext-ultra-ii-dna-library-prep-kit-for-illumina-and-with-sample-purification-beads-e7645-e7103
+
+A full manual can be found at: https://www.neb.com/~/media/Catalog/All-Products/9CBC60D62F5A4D3AB3970664E099CC73/Datacards%20or%20Manuals /manualE7645.pdf
+
+
+Materials Required
+
+¨	NEBNext Ultra II DNA Library Prep Kit (E7645S/L)
+
+¨	PCR tubes
+
+¨	AMPure XP beads at room temperature and well mixed
+¨	Molecular Grade Water
+
+¨	Freshly made 80% ethanol
+¨	1.5 mL tubes
+
+
+STEP 1: NEBNext End Prep
+
+1. Add to each tube in the order listed (no master mix is needed):
+Item	Volume (μL)
+(green) NEBNext Ultra II End Prep Enzyme Mix	3
+(green) NEBNext Ultra II End Prep Reaction Buffer	7
+Fragmented DNA	50
+Total	60
+
+2.	Pipette mix 10x. Quick spin and place on thermocycler program “NEB_NEXT_END_PREP”
+
+a.	30min at 20°C
+b.	30min at 65°C
+
+c.	Hold at 4°C
+3.	Do not freeze; continue on to next step.
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9
+ 
+Project:_______________________ RADseqReady Plate #__________________ Library #__________
+
+Name: __________________________ Date: ____________________________________
+
+STEP 2: Adapter Ligation
+
+1. Add to each tube in the order listed (no master mix is needed):
+Item	Volume (μL)	
+End Prep reaction mixture from Step 1	60	
+(red) NEBNext Ultra II Ligation Master Mix (pipette	30	
+mix prior to adding to sample)		
+		
+(red) NEBNext Ultra II Ligation Enhancer	1	
+(red) NEBNext Adaptor for Illumina (1uM)	2.5	
+Total	93.5	
+
+2.	Pipette mix 10x. Quick spin and place on thermocycler program “NEB_ADAPT_LIG1”
+
+a.	15min at 20°C with heated lid off
+3.	Add 3ul of USER Enzyme to the ligation mixture. Pipette mix and place on thermocycler program “NEB_ADAPT_LIG2”
+a.	15min at 37°C
+4.	Side note: Adapter can be diluted in 10mM Tris HCl by combining 10uL of 1M TrisHCl (ph 7.5) with 990uL molecular grade water. Adapter is at 15uM concentration so you may need to dilute to 1uM by mixing 2uL of 15uM adapter with 28uL of 10mM TrisHCl.
+
+
+STEP 3: Size Selection & Bead Cleanup		
+	1. This step is to select for fragments 300-600bp in size.		
+	Approximate insert size		300-600bp	
+	Approximate final library size		480bp	
+	(insert+adaptor+primers)			
+				
+
+2.	Add 6.5ul of   dH20 to adaptor ligation reaction to bring volume to 100, then add 55uL Ampure XP beads. Mix well by pipetting 10x.
+3.	Incubate on bench top for 5 minutes at room temperature.
+4.	Place the tube on the magnet and incubate for 5 minutes.
+5.	Carefully TRANSFER SUPERNATANT to a new 1.5mL tube. This contains your DNA. Discard beads.
+
+6.	Add 25ul of resuspended beads. Mix well by pipetting 10x.
+
+7.	Incubate on bench top for 5 minutes at room temperature.
+8.	Place the tube on the magnet and incubate for 5 minutes.
+9.	While on the magnet, carefully DISCARD THE SUPERNATANT. Your DNA is bound on the beads. KEEP BEADS.
+
+10.	While on the magnet, add 200ul of freshly made 80% ethanol. Incubate for 30 seconds then careful remove/discard ethanol.
+
+11.	While on the magnet, add another 200ul of freshly made 80% ethanol. Incubate for 30 seconds then careful remove/discard ethanol.
+12.	While on the magnet, let air dry with lids open for a maximum of 3 minutes. Do not over dry!
+ 
+
+
+10
+ 
+Project:_______________________ RADseqReady Plate #__________________ Library #__________
+
+Name: __________________________ Date: ____________________________________
+
+13.	Remove from magnet and add 17ul of 0.1X TE to the beads.
+
+14.	Pipette mix 10x. Incubate for 5 minutes on bench top at room temperature.
+15.	Place on magnet to incubate for 5 minutes.
+16.	Transfer 15ul to strip tubes for PCR amplification.
+
+17.	Use 2ul to Qubit size selected DNA
+
+Library ID	Concentration (ng/uL)
+	
+	
+	
+	
+
+STEP 4a: TEST PCR Amplification (F and R primers are not already combined)
+1.	To 1uL of cleaned library product, add 5uL NEBNext Ultra II Q5 Master Mix, 1uL Index Primer/i7 primer (note which index used), 1uL Universal PCR primer/i5 primer, and 2uL of H20 (10uL total reaction volume). PCR with following profile (BESTRAD 10uL on thermocycler): Initial denature 98C for 30 sec, then 4-12 cycles of  [98C for 10sec and 65C for 75sec], final extension 65C for 5 min, hold at 4C.
+2.	Run 5uL of test PCR product on EGel
+
+
+STEP 4b: PCR Amplification (F and R primers are not already combined)
+
+1.	To each tube, add the following items in the order listed. Add all reagents directly to the strip tubes. No master mix is needed.
+
+		Item	Volume (μL)	
+	Adapter ligated DNA fragments	15	
+	(blue) NEBNext Ultra II Q5 Master Mix	25	
+	(blue) Index Primer			
+[Look at the sequence tags to ensure that however	5	
+many indexes you use, that they have a minimum		
+			
+	editing distance of 4 mismatches!]			
+	(blue) Universal PCR Primer	5	
+		Total	50	
+						
+	Library ID		Index used			
+		RAD01	 Index 1			
+						
+						
+						
+
+2.	Pipette mix 10x. Quick spin.
+
+3.	Place in thermocycler and perform PCR amplification using the program “NEB_UltraII_PCR”
+
+a.	[1 cycle: 98°C for 30sec];[12 cycles: 98°C for 10sec; 65°C for 75sec
+b.	1 cycle: 65°C for 5min]; Hold at 4 C 
+ 
+Project:_______________________ RADseqReady Plate #__________________ Library #__________
+
+Name: __________________________ Date: ____________________________________
+
+
+STEP 5: 0.9X AmPure XP Bead Cleanup of PCR Amplification
+
+1.	Add 45ul of resuspended beads to the 50ul PCR product. Mix well by pipetting 10x.
+
+2.	Incubate on bench top for 5 minutes at room temperature.
+3.	Place the tube on the magnet and incubate for 5 minutes.
+4.	While on the magnet, carefully DISCARD THE SUPERNATANT. Your DNA is bound on the beads. KEEP BEADS.
+
+5.	While on the magnet, add 200ul of freshly made 80% ethanol. Incubate for 30 seconds then careful remove/discard ethanol.
+
+6.	While on the magnet, add another 200ul of freshly made 80% ethanol. Incubate for 30 seconds then careful remove/discard ethanol.
+7.	While on the magnet, let air dry with lids open for a maximum of 5 minutes. Do not over dry!
+
+8.	Remove from magnet and add 33uL 0.1x TE to the beads.
+
+9.	Pipette mix 10x. Incubate for 5 minutes on bench top at room temperature.
+10.	Place on magnet to incubate for 5 minutes.
+11.	Transfer 28ul to 1.5uL tubes. This is your final, complete sequencing library to use for preparation of sample submission to sequencing facility.
+
+12.	Use 2ul to Qubit size selected DNA. Expect 5–10 ng/uL, but anything over 3ng/uL is OK. Keep remaining for sequencing.
+
+Library ID	Concentration (ng/uL)
+RAD01	5.41
+	
+	
+	
+13.	Reserve 3uL in another 1.5mL tube for the Bioanalyzer.
+14.	Dilute library (use worksheet Pooling Volumes) to a final concentration according to sequencing facility
+15.	Store library at -20C until you send it off for sequencing!
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+13
+ 
+Project:_______________________ RADseqReady Plate #__________________ Library #__________
+
+Name: __________________________ Date: ____________________________________
+
+REAGENTS LIST
+
+Low TE (TE0.1: 10mM Tris-HCl pH 7.5, 0.1 mM EDTA)
+
+Materials:
+
+o	Molecular Grade Water o 1M Tris-HCl (pH 7.5) o 0.5M EDTA (pH 8.0)
+To make 100 mL of Low TE, remove 1.02 mL (1 mL plus 20 uL) from a 100 mL
+
+bottle of Molecular Grade Water. Then add 1 mL of 1M Tris-HCl (pH 7.5) and 20 uL 0.5M EDTA. Mix by inversion. It is also probably fine to just dilute regular 1X TE in a
+1:9 ratio with molecular grade water. But then you end up with 1mM Tris-HCl and
+
+0.1 mM EDTA. It is the EDTA concentration that is the most important here.
+
+80% Ethanol
+
+Materials:
+
+o	96% Molecular Grade Ethanol (Fisher BP82021) o Molecular Grade Water (Fisher BP2484100)
+
+o  5mL tubes or 15 mL conical tubes
+Make this fresh each day you are doing a bead clean up or size selection.
+
+Mix 4.167 mL of 96% ethanol with 0.833 mL of molecular grade water.
+
+2X Binding and Wash Buffer
+
+Reagent	C1	V1 (uL)	C2 (mM)	V2 (uL
+1M Tris HCl pH 7.5	1000	100	10	100000
+0.5M EDTA pH 7.5	500	20	1	100000
+5M NaCl	5000	4000	2	100000
+Molecular Grade Water		5880		
+
+0.1% Tween EB
+
+Materials:
+
+o	Tween 20 (Fisher BP337-100) o EB Buffer (Qiagen 19086)
+
+Tween is really viscous so it is difficult to pipette 1 uL accurately. So, first make a 10% solution with the 100-1000 uL pipette: Eg. mix 1 mL of Tween 20 with 9 mL Buffer EB. Then make a 0.1% Tween EB solution by combining 100 uL of 10% Tween EB with 9900 uL of EB Buffer. This gives you 0.1% Tween EB.
